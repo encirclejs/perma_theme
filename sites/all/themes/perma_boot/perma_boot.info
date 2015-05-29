@@ -1,0 +1,102 @@
+name = Permaculture Bootstrap Theme
+description = Theme to work with all sites, with implementation of the color module.
+core = 7.x
+base theme = bootstrap
+
+project = "Permaculture Bootstrap Theme"
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[banner]			= 'Banner'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+regions[vtabs]          =  'Vertical Tabs'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/colors.css
+
+stylesheets[all][] = less/variables.less
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Overriding CSS Remove Damn Dirty Panel Styles
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/ds_2col.css
+
+stylesheets[all][] = css/ds_2col_fluid.css
+stylesheets[all][] = css/ds_2col_fluid-rtl.css
+stylesheets[all][] = css/ds_2col_stacked.css
+stylesheets[all][] = css/ds_2col_stacked-rtl.css
+stylesheets[all][] = css/ds_2col_stacked_fluid-rtl.css
+stylesheets[all][] = css/ds_2col_stacked_fluid.css
+stylesheets[all][] = css/ds_3col.css
+stylesheets[all][] = css/ds_3col-rtl.css
+stylesheets[all][] = css/ds_3col_equal_width.css
+stylesheets[all][] = css/ds_3col_equal_width-rtl.css
+stylesheets[all][] = css/ds_3col_stacked.css
+stylesheets[all][] = css/ds_3col_stacked-rtl.css
+stylesheets[all][] = css/ds_3col_stacked_equal_width.css
+stylesheets[all][] = css/ds_3col_stacked_equal_width-rtl.css
+stylesheets[all][] = css/ds.admin.css
+stylesheets[all][] = css/panels_page.css
+stylesheets[all][] = css/panels-dashboard.css
+stylesheets[all][] = css/panels_dnd.css
+stylesheets[all][] = css/panels.css
+; stylesheets[all][] = css/panels-flexible-bootstrap_70_30.css
+; stylesheets[all][] = css/panels-flexible-column-bootstrap_70_30.css
+stylesheets[all][] = css/twocol_stacked.css
+stylesheets[all][] = css/flexible.css
+stylesheets[all][] = css/flexible-admin.css
+stylesheets[all][] = modal.css
+
+
+; For information on choosing the desired method, please read the Drupal
+; Bootstrap sub-theme "how-to" documentation:
+; https://drupal.org/node/1978010
+
+; ;----------------------------------
+; ; METHOD 1: Bootstrap Source Files
+; ;----------------------------------
+; 
+; ;;;;;;;;;;;;;;;;;;;;;
+; ;; Scripts
+; ;;;;;;;;;;;;;;;;;;;;;
+; 
+; scripts[] = 'bootstrap/js/affix.js'
+; scripts[] = 'bootstrap/js/alert.js'
+; scripts[] = 'bootstrap/js/button.js'
+; scripts[] = 'bootstrap/js/carousel.js'
+; scripts[] = 'bootstrap/js/collapse.js'
+; scripts[] = 'bootstrap/js/dropdown.js'
+; scripts[] = 'bootstrap/js/modal.js'
+; scripts[] = 'bootstrap/js/tooltip.js'
+; scripts[] = 'bootstrap/js/popover.js'
+; scripts[] = 'bootstrap/js/scrollspy.js'
+; scripts[] = 'bootstrap/js/tab.js'
+; scripts[] = 'bootstrap/js/transition.js'
+
+;
+; ; Disable BootstrapCDN if using Bootstrap source files in your sub-theme.
+; settings[bootstrap_cdn] = ''
+
+
+; ;-------------------------
+; ; METHOD 2: Bootstrap CDN
+; ;-------------------------
+;
+; Method 2 uses BootstrapCDN, the only thing you might need to provide here
+; is overrides to Bootstrap theme settings. Copy them here from the base theme
+; to override.

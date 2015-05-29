@@ -1,0 +1,96 @@
+
+/* ---------- Color Module Styles ----------- */
+
+
+
+body,
+body.overlay {
+    color:#3b3b3b;
+    background-color:#DDF0DE; 
+}
+
+p {
+    color:#3b3b3b;
+}
+
+.pane-tweets {background: #efefef;}
+.twitter-view, .twitter-view > a, .twitter-view, .pane-tweets > h2 {color:#dc6d26; }
+
+h1, h2 {color:#525252;}
+
+.comment .comment-arrow {
+  border-color: #ffffff;
+}
+#page,
+#main-wrapper,
+#main-menu-links li a.active,
+#main-menu-links li.active-trail a {
+  background: #ffffff;
+}
+.tabs ul.primary li a.active {
+  background-color: #ffffff;
+}
+
+.tabs ul.primary li.active a {
+  background-color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+ul.navbar-nav {
+  background-color: #8da600;
+  
+}
+a {
+  color: #225b2c;
+}
+a:hover,
+a:focus {
+  color: #225b2c;
+}
+a:active {
+  color: #23aeff;
+}
+.sidebar .block {
+  background-color: #f6f6f2;
+  border-color: #f9f9f9;
+}
+#page-wrapper, 
+#footer-wrapper {
+  background: #292929;
+}
+.region-header,
+.region-header a,
+.region-header li a.active,
+#name-and-slogan,
+#name-and-slogan a,
+#secondary-menu-links li a{
+  color: #fffeff;
+}
+
+.footer {background: #EBDAAF;}
+
+/* Hover */
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a {color:#fff;}
+.navbar-default .navbar-nav>.dropdown>a:hover .caret, .navbar-default .navbar-nav>.dropdown>a:focus .caret, .navbar-default .navbar-nav>li>a:hover {color:#faeeee;border-top-color: #faeeee;border-bottom-color: #faeeee;color:#faeeee;}
+
+ .navbar-default .navbar-nav .open .dropdown-menu>li>a {color:#3b3b3b;}
+
+
+.navbar-default .navbar-nav>.dropdown>a .caret {border-top-color: #faeeee;border-bottom-color: #faeeee;}
+
+.caret {border-top-color: #faeeee;}
+
+.navbar-default .navbar-nav>.open>a .caret, .navbar-default .navbar-nav>.open>a:hover .caret, .navbar-default .navbar-nav>.open>a:focus .caret, .navbar-default .navbar-nav>.open>a {border-top-color: #faeeee;border-bottom-color: #faeeee;color:#faeeee;}
+
+
+
+/* Active Nav, Calendar */
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus,.calendar-calendar .week-view .full div.single-day div.weekview, .calendar-calendar .day-view .full div.single-day div.dayview, .calendar-calendar .month-view .full td.single-day div.monthview, .calendar-calendar .week-view .full td.single-day div.weekview, .calendar-calendar .day-view .full td.single-day div.dayview  {background-color: #809803;}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {color:#faeeee;}
+
+@media (max-width: 768px) { 
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a{color:#faeeee;}
+}
+
+/* Drop down Active */
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {background-color:#d5efd9;}
